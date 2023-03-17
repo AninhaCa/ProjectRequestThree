@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7745D9FD29C4E56200C0A1C2 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7745D9FC29C4E56200C0A1C2 /* Pizza.swift */; };
+		7745DA0029C4E70000C0A1C2 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7745D9FE29C4E70000C0A1C2 /* MyCustomCellXIB.swift */; };
+		7745DA0129C4E70000C0A1C2 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7745D9FF29C4E70000C0A1C2 /* MyCustomCellXIB.xib */; };
 		77487D3E29C4E3A000875CEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77487D3D29C4E3A000875CEC /* AppDelegate.swift */; };
 		77487D4029C4E3A000875CEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77487D3F29C4E3A000875CEC /* SceneDelegate.swift */; };
 		77487D4229C4E3A000875CEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77487D4129C4E3A000875CEC /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		680A39F1D8C0CEF9C6C61DDA /* Pods-ProjectRequestThree.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectRequestThree.debug.xcconfig"; path = "Target Support Files/Pods-ProjectRequestThree/Pods-ProjectRequestThree.debug.xcconfig"; sourceTree = "<group>"; };
 		7745D9FC29C4E56200C0A1C2 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		7745D9FE29C4E70000C0A1C2 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
+		7745D9FF29C4E70000C0A1C2 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
 		77487D3A29C4E3A000875CEC /* ProjectRequestThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRequestThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77487D3D29C4E3A000875CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77487D3F29C4E3A000875CEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				77487D3F29C4E3A000875CEC /* SceneDelegate.swift */,
 				7745D9FC29C4E56200C0A1C2 /* Pizza.swift */,
 				77487D4129C4E3A000875CEC /* ViewController.swift */,
+				7745D9FE29C4E70000C0A1C2 /* MyCustomCellXIB.swift */,
+				7745D9FF29C4E70000C0A1C2 /* MyCustomCellXIB.xib */,
 				77487D4329C4E3A000875CEC /* Main.storyboard */,
 				77487D4629C4E3A100875CEC /* Assets.xcassets */,
 				77487D4829C4E3A100875CEC /* LaunchScreen.storyboard */,
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7745DA0129C4E70000C0A1C2 /* MyCustomCellXIB.xib in Resources */,
 				77487D4A29C4E3A100875CEC /* LaunchScreen.storyboard in Resources */,
 				77487D4729C4E3A100875CEC /* Assets.xcassets in Resources */,
 				77487D4529C4E3A000875CEC /* Main.storyboard in Resources */,
@@ -209,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7745D9FD29C4E56200C0A1C2 /* Pizza.swift in Sources */,
+				7745DA0029C4E70000C0A1C2 /* MyCustomCellXIB.swift in Sources */,
 				77487D4229C4E3A000875CEC /* ViewController.swift in Sources */,
 				77487D3E29C4E3A000875CEC /* AppDelegate.swift in Sources */,
 				77487D4029C4E3A000875CEC /* SceneDelegate.swift in Sources */,
