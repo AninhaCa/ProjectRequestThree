@@ -12,7 +12,6 @@ class RatingViewController: UIViewController {
 
     @IBOutlet var imageRating: UIImageView!
     @IBOutlet var labelName: UILabel!
-    
     @IBOutlet var labelRating: UILabel!
     @IBOutlet var buttonBack: UIButton!
     
